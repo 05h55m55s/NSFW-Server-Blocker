@@ -5,7 +5,7 @@
  * @author p_4v
  * @authorId 384496246028763146
  * @website https://github.com/05h55m55s/NSFW-Server-Blocker
- * @source https://raw.githubusercontent.com/YOUR_NAME/NSFW-Server-Blocker/main/NSFWServerBlocker.plugin.js
+ * @source https://raw.githubusercontent.com/05h55m55s/NSFW-Server-Blocker/main/NSFWServerBlocker.plugin.js
  */
 
 module.exports = class NSFWServerBlocker {
@@ -128,4 +128,5 @@ module.exports = class NSFWServerBlocker {
             this.processServerCheck(event.guild.id, event.guild.name);
         }, 3000);
     }
+
 };
